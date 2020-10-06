@@ -1,0 +1,45 @@
+body {
+    background-color: #eeeeee;
+    overflow-x: hidden;
+}
+
+::-webkit-scrollbar-track {
+    border-radius: 10px;
+    background-color: #F5F5F5;
+}
+
+::-webkit-scrollbar {
+    width: 10px;
+    background-color: #F5F5F5;
+}
+
+::-webkit-scrollbar-thumb {
+    border-radius: 10px;
+    background-color: #ccc;
+}
+
+.card, .shadow-saldos {
+    -webkit-box-shadow: 0 0 5px -1px rgba(0, 0, 0, 0.61);
+    box-shadow: 0 0 5px -1px rgba(0, 0, 0, 0.61);
+}
+
+.navbar-dark {
+    background-color: #c77800;
+}
+
+.navbar-light {
+    background-color: #ffa726;
+}
+
+.card-header {
+    background-color: #ffa726;
+}
+
+.nav-link {
+    color: #000000;
+}
+
+.nav-shadow {
+    -webkit-box-shadow: 0 4px 5px -1px rgba(0, 0, 0, 0.61);
+    box-shadow: 0 4px 5px -1px rgba(0, 0, 0, 0.61);
+}
