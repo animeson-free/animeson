@@ -35,10 +35,10 @@ function incluir($classes = []) {
 
 function db_connect($prod = false) {
     if ($prod) {
-        DB::$host = 'localhost';
-        DB::$user = 'animesonfreeroot';
-        DB::$password = 'j7M*w5';
-        DB::$dbName = 'animesonfree_tkdb ';
+        DB::$host = 'remotemysql.com';
+        DB::$user = 'GZ7hzGKrOy';
+        DB::$password = '25VaBJQMdz';
+        DB::$dbName = 'GZ7hzGKrOy ';
     } else {
         DB::$user = 'root';
         DB::$password = '';
