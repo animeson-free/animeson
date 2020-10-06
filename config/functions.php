@@ -38,7 +38,7 @@ function db_connect($prod = false) {
         DB::$host = 'remotemysql.com';
         DB::$user = 'GZ7hzGKrOy';
         DB::$password = '25VaBJQMdz';
-        DB::$dbName = 'GZ7hzGKrOy ';
+        DB::$dbName = 'GZ7hzGKrOy';
     } else {
         DB::$user = 'root';
         DB::$password = '';
